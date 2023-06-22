@@ -1,0 +1,120 @@
+ body { 
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+ }
+
+ .header {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background-color: #1F2937;
+ }
+
+ .headertop {
+    display: flex;
+ }
+
+ .headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+ }
+
+ ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7EB;
+    margin: 8px;
+    font-size: 18px;
+  }
+
+  .headerbottom {
+    display: flex;
+ }
+
+ .headerleft {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .texttop {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+ }
+
+ .textbottom {
+    font-size: 18px;
+    color: #E5E7EB;
+ }
+
+ button {
+    padding: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+ }
+
+ .info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+ }
+
+ .infotop {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+ }
+
+ .infobottom {
+    display:flex;
+ }
+
+ .imgcap {
+    display:flex;
+    flex-direction: column;
+ }
+
+ .quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-family: light italic;
+ }
+
+ .quotetop {
+    display: flex;
+ }
+
+ .quotebottom {
+    display: flex;
+ }
+
+ .signup {
+    display:flex;
+    flex-direction: column;
+ }
+
+ .signtop{
+    display: flex;
+    background-color: white;
+ }
+
+ .lefttext, .righttext {
+    padding: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+ }
+
+ .footer {
+    display: flex;
+    background-color: #1F2937;
+ }
