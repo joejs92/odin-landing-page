@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
+    min-height: 200vh;
  }
 
  .header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    flex: 1;
  }
 
  .headertop {
@@ -25,7 +27,7 @@
 
  .headerlinks {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     flex-grow: 1;
  }
 
@@ -41,16 +43,32 @@
     font-size: 18px;
   }
 
+  .img1 {
+   height: 250px;
+   width: 350px;
+  }
+
   .headerbottom {
     display: flex;
+
  }
 
  .headerleft {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+ }
+
+ .headerright {
+   display: flex;
+   flex-grow: 1;
+   justify-content: left;  
  }
 
  .texttop {
+   display: flex;
+    align-items: baseline;
+    justify-content: left; 
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -72,6 +90,7 @@
  .info {
     display: flex;
     flex-direction: column;
+    flex: 1;
     background-color: white;
  }
 
@@ -88,6 +107,11 @@
     display:flex;
  }
 
+ .img2 {
+   height: 250px;
+   width: 250px;
+ }
+
  .imgcap {
     display:flex;
     flex-direction: column;
@@ -96,6 +120,7 @@
  .quote {
     display: flex;
     flex-direction: column;
+    flex: 1;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
@@ -113,11 +138,13 @@
  .signup {
     display:flex;
     flex-direction: column;
+    flex: 1;
  }
 
  .signtop{
     display: flex;
     background-color: white;
+    flex-grow: 2;
  }
 
  .lefttext, .righttext {
@@ -128,5 +155,6 @@
 
  .footer {
     display: flex;
+    flex-grow: 1;
     background-color: #1F2937;
  }
