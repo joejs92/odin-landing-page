@@ -10,6 +10,10 @@
     flex-direction: column;
     background-color: #1F2937;
     flex: 1;
+    padding-top: 16px;
+    padding-bottom:16px;
+    padding-left: 150px;
+    padding-right: 150px;
  }
 
  .headertop {
@@ -45,46 +49,52 @@
 
   .img1 {
    height: 250px;
-   width: 350px;
+   width: auto;
   }
 
   .headerbottom {
     display: flex;
-
+   flex-grow: 1;
+   align-items: center;
  }
 
  .headerleft {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    justify-content: left;
  }
 
  .headerright {
    display: flex;
    flex-grow: 1;
-   justify-content: left;  
+   justify-content: right;  
  }
 
  .texttop {
    display: flex;
     align-items: baseline;
-    justify-content: left; 
+    justify-content: left;
+    flex-wrap:wrap; 
     font-size: 48px;
+    width: 400px;
     font-weight: bolder;
     color: #F9FAF8;
-    flex-grow: 1;
  }
 
  .textbottom {
+   display: flex;
+   flex-wrap:wrap;
+   width: 400px; 
     font-size: 18px;
     color: #E5E7EB;
-    flex-grow: 1;
  }
 
  button {
     padding: 8px;
     background-color: #3882F6;
     color: #E5E7EB;
+    margin-top: 8px;
  }
 
  .info {
@@ -105,6 +115,8 @@
 
  .infobottom {
     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
  }
 
  .img2 {
@@ -113,26 +125,35 @@
  }
 
  .imgcap {
-    display:flex;
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 52px;
+   margin-right: 52px;
+   width: 200px;
  }
 
  .quote {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
     background-color: #E5E7EB;
     font-size: 36px;
+    padding-left: 550px;
+    padding-right:550px;
     color: #1F2937;
     font-family: light italic;
  }
 
  .quotetop {
     display: flex;
+    flex-wrap: wrap;
  }
 
  .quotebottom {
     display: flex;
+    justify-content: right;
  }
 
  .signup {
@@ -145,16 +166,47 @@
     display: flex;
     background-color: white;
     flex-grow: 2;
+    justify-content: center;
+    margin: 100px;
  }
 
- .lefttext, .righttext {
-    padding: 8px;
+ .lefttext {
+    display: flex;
+    align-items: center;
     background-color: #3882F6;
     color: #E5E7EB;
+    width: 700px;
+    border-radius: 10px;
+    padding-left: 100px;
+ }
+
+ .left{
+   display:flex;
+   flex-direction: column;
+ }
+
+ .right {
+   display: flex;
+   justify-content: center;
+   padding-left: 100px;
+ }
+
+ .boldtext {
+   font-size: 24px;
+   font-weight:bold;
+   margin: 0px;
+ }
+
+ .normaltext {
+   font-size: 18px;
+   margin: 0px;
  }
 
  .footer {
     display: flex;
     flex-grow: 1;
     background-color: #1F2937;
- }
+    justify-content: center;
+    align-content: center;
+   padding-top: 50px;
+   }
