@@ -91,10 +91,11 @@
  }
 
  button {
-    padding: 8px;
+    padding: 4px 16px;
     background-color: #3882F6;
     color: #E5E7EB;
     margin-top: 8px;
+    border-radius: 5px;
  }
 
  .info {
@@ -111,6 +112,7 @@
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 24px 0px;
  }
 
  .infobottom {
@@ -122,6 +124,7 @@
  .img2 {
    height: 250px;
    width: 250px;
+   border-radius: 10px;
  }
 
  .imgcap {
